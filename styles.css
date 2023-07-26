@@ -6,15 +6,28 @@ h1{
 	text-align: center;
 }
 h2{
-	text-align: center;
+	background:white;
+	margin-top:0px;
+	padding-left:100px
+}
+#color{
+	background:#cccccc;
 }
 .player_one{
+	border: 1px solid black;
 	background:white;
 }
 .player_two{
+	width:350px;
+	margin-left:100px;
 	background:white;
+	border: 1px solid black;
+	padding-left:25%;
+	box-sizing:border-box
 }
 video{
 	background-position: center;
+	margin-top:0px;
+	margin-left:0px;
 }
 
