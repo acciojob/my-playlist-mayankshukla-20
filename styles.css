@@ -16,18 +16,46 @@ h2{
 .player_one{
 	border: 1px solid black;
 	background:white;
+	border-radius:5px;
+	height:130px;
+	padding-top:40px;
+}
+.player_one>a{
+	
+	background-color: transparent;
+	text-decoration:none;
+	color:black;
+	padding:40px;
+}
+#color{
+	text-align:center;
 }
 .player_two{
-	width:350px;
-	margin-left:100px;
-	background:white;
-	border: 1px solid black;
-	padding-left:25%;
-	box-sizing:border-box
+	margin-left:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	border:2px solid black;
+	border-radius:5px;
+	background-color:white;
+	width:550px;
 }
 video{
 	background-position: center;
-	margin-top:0px;
-	margin-left:0px;
+	width:95%;
+	margin:10px 15px;
+}
+.player_two>h2{
+	text-align:center;
+}
+.player_two>p{
+	text-align: left;
+	background-color:transparent;
+	margin:15px;
+}
+.player_two>audio{
+	width:95%;
+	background-color:transparent;
+	margin-inline:auto;
 }
 
